@@ -22,5 +22,6 @@ The result is `恭喜發財`
 - Mooc:     [CGPointZero](http://www.imooc.com/u/3909164/articles)
 - Jianshu:  [CGPointZero](http://www.jianshu.com/users/c3f2e8c87dc4/latest_articles)
 - Email:    [newbox0512@yahoo.com](mailto:newbox0512@yahoo.com)
+
 ..............................................................
 @CGPoitZero

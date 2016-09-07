@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1851ABED1D80766C00F25E31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1851ABEC1D80766C00F25E31 /* main.m */; };
+		1851ABF01D80766C00F25E31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1851ABEF1D80766C00F25E31 /* AppDelegate.m */; };
+		1851ABF31D80766C00F25E31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1851ABF21D80766C00F25E31 /* ViewController.m */; };
+		1851ABF61D80766C00F25E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1851ABF41D80766C00F25E31 /* Main.storyboard */; };
+		1851ABF81D80766C00F25E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1851ABF71D80766C00F25E31 /* Assets.xcassets */; };
+		1851ABFB1D80766C00F25E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1851ABF91D80766C00F25E31 /* LaunchScreen.storyboard */; };
+		1851AC061D80767600F25E31 /* NSString+FGReverser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1851AC041D80767600F25E31 /* NSString+FGReverser.m */; };
+		1851AC071D80767600F25E31 /* reverse in Resources */ = {isa = PBXBuildFile; fileRef = 1851AC051D80767600F25E31 /* reverse */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1851ABE81D80766C00F25E31 /* FGReverserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FGReverserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1851ABEC1D80766C00F25E31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1851ABEE1D80766C00F25E31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1851ABEF1D80766C00F25E31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1851ABF11D80766C00F25E31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1851ABF21D80766C00F25E31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1851ABF51D80766C00F25E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1851ABF71D80766C00F25E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1851ABFA1D80766C00F25E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1851ABFC1D80766C00F25E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1851AC031D80767600F25E31 /* NSString+FGReverser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FGReverser.h"; sourceTree = "<group>"; };
+		1851AC041D80767600F25E31 /* NSString+FGReverser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FGReverser.m"; sourceTree = "<group>"; };
+		1851AC051D80767600F25E31 /* reverse */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = reverse; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1851ABE51D80766C00F25E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1851ABDF1D80766C00F25E31 = {
+			isa = PBXGroup;
+			children = (
+				1851AC021D80767600F25E31 /* Reverser */,
+				1851ABEA1D80766C00F25E31 /* FGReverserDemo */,
+				1851ABE91D80766C00F25E31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1851ABE91D80766C00F25E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1851ABE81D80766C00F25E31 /* FGReverserDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1851ABEA1D80766C00F25E31 /* FGReverserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1851ABEE1D80766C00F25E31 /* AppDelegate.h */,
+				1851ABEF1D80766C00F25E31 /* AppDelegate.m */,
+				1851ABF11D80766C00F25E31 /* ViewController.h */,
+				1851ABF21D80766C00F25E31 /* ViewController.m */,
+				1851ABF41D80766C00F25E31 /* Main.storyboard */,
+				1851ABF71D80766C00F25E31 /* Assets.xcassets */,
+				1851ABF91D80766C00F25E31 /* LaunchScreen.storyboard */,
+				1851ABFC1D80766C00F25E31 /* Info.plist */,
+				1851ABEB1D80766C00F25E31 /* Supporting Files */,
+			);
+			path = FGReverserDemo;
+			sourceTree = "<group>";
+		};
+		1851ABEB1D80766C00F25E31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1851ABEC1D80766C00F25E31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1851AC021D80767600F25E31 /* Reverser */ = {
+			isa = PBXGroup;
+			children = (
+				1851AC031D80767600F25E31 /* NSString+FGReverser.h */,
+				1851AC041D80767600F25E31 /* NSString+FGReverser.m */,
+				1851AC051D80767600F25E31 /* reverse */,
+			);
+			path = Reverser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1851ABE71D80766C00F25E31 /* FGReverserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1851ABFF1D80766C00F25E31 /* Build configuration list for PBXNativeTarget "FGReverserDemo" */;
+			buildPhases = (
+				1851ABE41D80766C00F25E31 /* Sources */,
+				1851ABE51D80766C00F25E31 /* Frameworks */,
+				1851ABE61D80766C00F25E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FGReverserDemo;
+			productName = FGReverserDemo;
+			productReference = 1851ABE81D80766C00F25E31 /* FGReverserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1851ABE01D80766C00F25E31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "风过的夏";
+				TargetAttributes = {
+					1851ABE71D80766C00F25E31 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1851ABE31D80766C00F25E31 /* Build configuration list for PBXProject "FGReverserDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1851ABDF1D80766C00F25E31;
+			productRefGroup = 1851ABE91D80766C00F25E31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1851ABE71D80766C00F25E31 /* FGReverserDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1851ABE61D80766C00F25E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1851ABFB1D80766C00F25E31 /* LaunchScreen.storyboard in Resources */,
+				1851ABF81D80766C00F25E31 /* Assets.xcassets in Resources */,
+				1851ABF61D80766C00F25E31 /* Main.storyboard in Resources */,
+				1851AC071D80767600F25E31 /* reverse in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1851ABE41D80766C00F25E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1851AC061D80767600F25E31 /* NSString+FGReverser.m in Sources */,
+				1851ABF31D80766C00F25E31 /* ViewController.m in Sources */,
+				1851ABF01D80766C00F25E31 /* AppDelegate.m in Sources */,
+				1851ABED1D80766C00F25E31 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1851ABF41D80766C00F25E31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1851ABF51D80766C00F25E31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1851ABF91D80766C00F25E31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1851ABFA1D80766C00F25E31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1851ABFD1D80766C00F25E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1851ABFE1D80766C00F25E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1851AC001D80766C00F25E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FGReverserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzsx.FGReverserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1851AC011D80766C00F25E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FGReverserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzsx.FGReverserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1851ABE31D80766C00F25E31 /* Build configuration list for PBXProject "FGReverserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1851ABFD1D80766C00F25E31 /* Debug */,
+				1851ABFE1D80766C00F25E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1851ABFF1D80766C00F25E31 /* Build configuration list for PBXNativeTarget "FGReverserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1851AC001D80766C00F25E31 /* Debug */,
+				1851AC011D80766C00F25E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1851ABE01D80766C00F25E31 /* Project object */;
+}

@@ -2,6 +2,12 @@
 ..............................................................
 ##Introduction
 A Category of NSString used for mutual converting between simplified Chinese and Traditional Chinese.
+##Installtion
+Manual:
+Download This Project and drag the FGReverser folder into your peroject, do not forget to ensure "copy item if need" being selected.
+Cocoapods:
+`pod 'FGReverser', '~> 1.0.0'`
+
 ##Usage
 Just import the header file:`import "NSString+FGReverser.h"`
 

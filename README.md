@@ -1,5 +1,5 @@
-#FGReverser
-******
+# FGReverser
+****
 
 ## Introduction
 A Category of NSString used for mutual converting between simplified Chinese and Traditional Chinese.
@@ -34,6 +34,6 @@ The result is `恭喜發財`
 - Jianshu:  [CGPointZero](http://www.jianshu.com/users/c3f2e8c87dc4/latest_articles)
 - Email:    [newbox0512@yahoo.com](mailto:newbox0512@yahoo.com)
 
-..............................................................
+****
 
 @CGPoitZero

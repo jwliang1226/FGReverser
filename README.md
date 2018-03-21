@@ -1,33 +1,34 @@
 #FGReverser
-..............................................................
-##Introduction
-A Category of NSString used for mutual converting between simplified Chinese and Traditional Chinese.
-##Installtion
-Manual:
+******
 
+## Introduction
+A Category of NSString used for mutual converting between simplified Chinese and Traditional Chinese.
+
+## Installtion
+- Manual:
 Download This Project and drag the FGReverser folder into your peroject, do not forget to ensure "copy item if need" being selected.
 
-Cocoapods:
+- Cocoapods:
 ```
 pod 'FGReverser', '~> 1.0.0'
 ```
 
-##Usage
+## Usage
 Just import the header file:`import "NSString+FGReverser.h"`
 
 Simplfied Chinese to Traditional Chinese, or Traditional Chinese to Simplfied Chinese, Use:
 ```
 -(NSString *)reverseString;
 ```
-##Example
+## Example
 ```
 NSString *sourceString=@"恭喜发财";
 NSString *reslutString=[sourceString reverseString];
 NSLog(@"%@",reslutString);
 ```
 The result is `恭喜發財`
-##About Me
-- Blog:     [CGPointZeero](http://cgpointzero.top)
+## About Me
+- Blog:     [CGPointZeero](http://Insfgg99x.github.io)
 - GitHub:   [Insfgg99x](https://github.com/Insfgg99x)
 - Mooc:     [CGPointZero](http://www.imooc.com/u/3909164/articles)
 - Jianshu:  [CGPointZero](http://www.jianshu.com/users/c3f2e8c87dc4/latest_articles)

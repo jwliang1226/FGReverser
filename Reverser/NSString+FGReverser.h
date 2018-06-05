@@ -36,6 +36,8 @@
  */
 @interface NSString (FGReverser)
 
+@property(nonatomic, strong, readonly)NSDictionary *reverseMap;
+
 /**
  *  Mutual converting between Simplfied Chinese and traditional Chinese.
  *

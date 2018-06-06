@@ -12,7 +12,7 @@ s.source_files = 'Reverser/*'
 s.resources    = 'Reverser/reverse'
 s.requires_arc = true
 s.resource_bundles = {
-	'FGReverser' => ['Reverser/rever'],
+	'FGReverser' => ['Reverser/reverse'],
 }
 #s.dependency 'SDWebImage'
 #s.dependency 'pop'

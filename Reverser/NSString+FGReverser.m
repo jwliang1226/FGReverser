@@ -28,7 +28,12 @@ static const char *NSStringRevereMapper2Key = "NSStringRevereMapper2Key";
 }
 - (NSDictionary *)mapper {
     if(!self.reverseMap) {
-        NSString *mapPath = [NSBundle.mainBundle pathForResource:@"Frameworks/FGReverser.framework/reverse" ofType:nil];
+        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"FGReverser" ofType:@"bundle"];
+        NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+        NSString *mapPath = [bundle pathForResource:@"reverse" ofType:nil];
+        if(!bundle || !mapPath) {
+            mapPath = [[NSBundle mainBundle] pathForResource:@"reverse" ofType:nil];
+        }
         self.reverseMap = [NSDictionary dictionaryWithContentsOfFile:mapPath];
     }
     return self.reverseMap;

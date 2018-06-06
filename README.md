@@ -10,7 +10,7 @@ Download This Project and drag the FGReverser folder into your peroject, do not 
 
 - Cocoapods:
 ```
-pod 'FGReverser', '~> 1.2'
+pod 'FGReverser', '~> 1.3'
 ```
 
 ## Usage

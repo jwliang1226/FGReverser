@@ -34,6 +34,28 @@ NSLog(@"%@",reslutString);
 ```
 The result is `恭喜发财`
 
+## Use in Swift
+```swift
+import UIKit
+import FGReverser
+
+class ViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        var str = "恭喜发财"
+        str = str.fg_reversed()!
+        print(str)
+        str = str.fg_reversed()!
+        print(str)
+    }
+}
+
+```
+result is:
+
+***恭喜發財***
+***恭喜发财***
+
 ## About Me
 - Blog:     [CGPointZeero](http://Insfgg99x.github.io)
 - GitHub:   [Insfgg99x](https://github.com/Insfgg99x)

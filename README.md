@@ -10,7 +10,7 @@ Download This Project and drag the FGReverser folder into your peroject, do not 
 
 - Cocoapods:
 ```
-pod 'FGReverser', '~> 1.3'
+pod 'FGReverser', '~> 2.0'
 ```
 
 ## Usage
@@ -23,10 +23,17 @@ Simplfied Chinese to Traditional Chinese, or Traditional Chinese to Simplfied Ch
 ## Example
 ```
 NSString *sourceString=@"恭喜发财";
-NSString *reslutString=[sourceString reverseString];
+NSString *reslutString=[sourceString fg_reversed];
 NSLog(@"%@",reslutString);
 ```
 The result is `恭喜發財`
+
+NSString *sourceString=@"恭喜發財";
+NSString *reslutString=[sourceString fg_reversed];
+NSLog(@"%@",reslutString);
+```
+The result is `恭喜发财`
+
 ## About Me
 - Blog:     [CGPointZeero](http://Insfgg99x.github.io)
 - GitHub:   [Insfgg99x](https://github.com/Insfgg99x)

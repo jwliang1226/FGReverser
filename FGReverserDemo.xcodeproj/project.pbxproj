@@ -14,7 +14,6 @@
 		1851ABF81D80766C00F25E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1851ABF71D80766C00F25E31 /* Assets.xcassets */; };
 		1851ABFB1D80766C00F25E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1851ABF91D80766C00F25E31 /* LaunchScreen.storyboard */; };
 		1851AC061D80767600F25E31 /* NSString+FGReverser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1851AC041D80767600F25E31 /* NSString+FGReverser.m */; };
-		1851AC071D80767600F25E31 /* reverse in Resources */ = {isa = PBXBuildFile; fileRef = 1851AC051D80767600F25E31 /* reverse */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,7 @@
 		1851ABFC1D80766C00F25E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1851AC031D80767600F25E31 /* NSString+FGReverser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FGReverser.h"; sourceTree = "<group>"; };
 		1851AC041D80767600F25E31 /* NSString+FGReverser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FGReverser.m"; sourceTree = "<group>"; };
-		1851AC051D80767600F25E31 /* reverse */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = reverse; sourceTree = "<group>"; };
+		C3640FC120C7E7AE0060BD44 /* FGReverserConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGReverserConst.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +89,7 @@
 			children = (
 				1851AC031D80767600F25E31 /* NSString+FGReverser.h */,
 				1851AC041D80767600F25E31 /* NSString+FGReverser.m */,
-				1851AC051D80767600F25E31 /* reverse */,
+				C3640FC120C7E7AE0060BD44 /* FGReverserConst.h */,
 			);
 			path = Reverser;
 			sourceTree = "<group>";
@@ -121,7 +120,7 @@
 		1851ABE01D80766C00F25E31 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "风过的夏";
 				TargetAttributes = {
 					1851ABE71D80766C00F25E31 = {
@@ -155,7 +154,6 @@
 				1851ABFB1D80766C00F25E31 /* LaunchScreen.storyboard in Resources */,
 				1851ABF81D80766C00F25E31 /* Assets.xcassets in Resources */,
 				1851ABF61D80766C00F25E31 /* Main.storyboard in Resources */,
-				1851AC071D80767600F25E31 /* reverse in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,13 +202,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -248,13 +256,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -318,6 +336,7 @@
 				1851AC011D80766C00F25E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

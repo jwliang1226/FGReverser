@@ -61,11 +61,9 @@
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://cgpointzero.top"]];
 }
 #pragma mark - UITextField
--(BOOL)textFieldShouldReturn:(UITextField *)textField{
-    
+-(BOOL)textFieldShouldReturn:(UITextField *)textField {
     //covert
-    textField.text=[textField.text reverseString];
-    
+    textField.text=[textField.text fg_reversed];
     [self.view endEditing:YES];
     return YES;
 }

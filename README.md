@@ -28,13 +28,16 @@ NSLog(@"%@",reslutString);
 ```
 The result is `恭喜發財`
 
+```
 NSString *sourceString=@"恭喜發財";
 NSString *reslutString=[sourceString fg_reversed];
 NSLog(@"%@",reslutString);
 ```
+
 The result is `恭喜发财`
 
 ## Use in Swift
+
 ```swift
 import UIKit
 import FGReverser
@@ -51,6 +54,7 @@ class ViewController: UIViewController {
 }
 
 ```
+
 result is:
 
 ***恭喜發財***
